@@ -1,10 +1,9 @@
-Halo nama saya aida
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peta Belajar UI/UX Desainer</title>
+    <title>Peta Belajar Desainer UI/UX</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,6 +19,8 @@ Halo nama saya aida
 
         .topic {
             margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
         }
 
         .topic h2 {
@@ -31,6 +32,27 @@ Halo nama saya aida
             padding-left: 20px;
         }
 
+        .quote {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .animated {
+            animation: slideIn 1s ease;
+        }
+
         @media only screen and (max-width: 600px) {
             .topic {
                 margin-left: 10px;
@@ -40,93 +62,134 @@ Halo nama saya aida
     </style>
 </head>
 <body>
-    <h1>Peta Belajar UI/UX Desainer</h1>
+    <h1>Peta Belajar Desainer UI/UX</h1>
 
-    <div class="topic">
-        <h2>1. Memahami Dasar-Dasar Desain</h2>
+    <div class="topic animated">
+        <h2>1. Dasar-dasar Desain</h2>
         <ul>
-            <li>Prinsip-prinsip desain: tipografi, warna, ruang, kontras</li>
-            <li>Penggunaan gambar, ikon, dan grafik dalam desain</li>
+            <li>Prinsip-prinsip desain: tipografi, warna, komposisi, ruang negatif</li>
+            <li>Penggunaan elemen desain untuk mempengaruhi interaksi pengguna</li>
         </ul>
+        <p class="quote">"Sederhana adalah akhir dari segala sesuatu." - Frank Lloyd Wright</p>
     </div>
 
-    <div class="topic">
-        <h2>2. Penelitian Pengguna dan Pengumpulan Informasi</h2>
+    <div class="topic animated">
+        <h2>2. Penelitian Pengguna</h2>
         <ul>
-            <li>Riset pengguna untuk memahami kebutuhan, preferensi, masalah</li>
-            <li>Wawancara, survei, dan observasi</li>
-            <li>Analisis data dan persona pengguna</li>
+            <li>Metode riset pengguna: wawancara, survei, observasi</li>
+            <li>Menganalisis data untuk memahami kebutuhan dan keinginan pengguna</li>
         </ul>
+        <p class="quote">"Tahu pelanggan Anda lebih baik daripada mereka tahu diri mereka sendiri." - Steve Jobs</p>
     </div>
 
-    <div class="topic">
+    <div class="topic animated">
         <h2>3. Desain Wireframe dan Mockup</h2>
         <ul>
-            <li>Wireframe untuk tata letak dan alur penggunaan</li>
-            <li>Desain mockup dengan Adobe XD, Sketch, atau Figma</li>
+            <li>Wireframe untuk mengatur tata letak dan aliran aplikasi</li>
+            <li>Mockup visual berdasarkan wireframe</li>
         </ul>
+        <p class="quote">"Desain adalah bukan hanya bagaimana sesuatu terlihat dan terasa, tetapi bagaimana sesuatu bekerja." - Steve Jobs</p>
     </div>
 
-    <div class="topic">
-        <h2>4. Interaksi dan Animasi</h2>
+    <div class="topic animated">
+        <h2>4. Prototipe Interaktif</h2>
         <ul>
-            <li>Pentingnya interaksi dan animasi dalam UI/UX Design</li>
-            <li>Prototipe interaktif dengan Adobe XD, InVision, atau Principle</li>
+            <li>Membuat prototipe interaktif untuk menguji aliran dan fungsionalitas</li>
+            <li>Menggunakan alat seperti Adobe XD, Sketch, atau Figma</li>
         </ul>
+        <p class="quote">"Desain bukanlah hanya apa yang terlihat dan terasa. Desain adalah bagaimana sesuatu bekerja." - Ray Eames</p>
     </div>
 
-    <div class="topic">
-        <h2>5. Responsif dan Desain Mobile</h2>
+    <div class="topic animated">
+        <h2>5. Desain Responsif</h2>
         <ul>
-            <li>Desain responsif untuk berbagai perangkat dan layar</li>
-            <li>Prinsip desain untuk aplikasi mobile</li>
+            <li>Prinsip desain responsif untuk berbagai perangkat dan layar</li>
+            <li>Mengatasi tantangan desain pada perangkat seluler</li>
         </ul>
+        <p class="quote">"Desain responsif adalah pintu masuk ke masa depan." - Jeffrey Veen</p>
     </div>
 
-    <div class="topic">
-        <h2>6. Uji Coba Pengguna dan Iterasi</h2>
+    <div class="topic animated">
+        <h2>6. Animasi dan Mikrointeraksi</h2>
         <ul>
-            <li>Pengujian pengguna untuk menguji efektivitas desain</li>
-            <li>Iterasi dan perbaikan desain berdasarkan hasil pengujian</li>
+            <li>Menambahkan animasi untuk meningkatkan pengalaman pengguna</li>
+            <li>Memahami mikrointeraksi dan bagaimana mengimplementasikannya</li>
         </ul>
+        <p class="quote">"Desain adalah kesenangan, dan mikrointeraksi adalah kejutan yang menyenangkan." - Dan Saffer</p>
     </div>
 
-    <div class="topic">
-        <h2>7. Memahami Teknologi Front-End</h2>
+    <div class="topic animated">
+        <h2>7. Testing dan Pengujian Pengguna</h2>
         <ul>
-            <li>Dasar HTML, CSS, dan JavaScript untuk implementasi teknis desain</li>
+            <li>Melakukan pengujian pengguna untuk mendapatkan umpan balik</li>
+            <li>Menggunakan hasil pengujian untuk perbaikan desain</li>
         </ul>
+        <p class="quote">"Jika Anda mengira pengguna Anda bijaksana, cobalah memahami logika pintu geser bandara." - Eric Snowden</p>
     </div>
 
-    <div class="topic">
-        <h2>8. Mengikuti Tren dan Inovasi</h2>
+    <div class="topic animated">
+        <h2>8. UI Pattern dan Guidelines</h2>
         <ul>
-            <li>Mengikuti tren terbaru dalam desain UI/UX</li>
-            <li>Menyelidiki pendekatan desain yang baru dan inovatif</li>
+            <li>Penggunaan pola desain antarmuka pengguna (UI patterns)</li>
+            <li>Menerapkan pedoman desain platform tertentu</li>
         </ul>
+        <p class="quote">"Pedoman desain adalah fondasi. Tanpa fondasi, Anda tidak bisa membangun apa pun." - Irene Au</p>
     </div>
 
-    <div class="topic">
-        <h2>9. Portofolio</h2>
+    <div class="topic animated">
+        <h2>9. Keterampilan Desain Grafis</h2>
         <ul>
-            <li>Membuat portofolio yang mencerminkan keterampilan dan proyek</li>
+            <li>Menggunakan alat desain grafis seperti Adobe Photoshop atau Illustrator</li>
+            <li>Membuat ikon, ilustrasi, dan grafik tambahan</li>
         </ul>
+        <p class="quote">"Desain grafis adalah seni yang mengatur dan mengkomunikasikan pesan dengan gambar." - Gail Anderson</p>
     </div>
 
-    <div class="topic">
-        <h2>10. Kolaborasi dan Komunikasi</h2>
+    <div class="topic animated">
+        <h2>10. Pengembangan Kreatif</h2>
         <ul>
-            <li>Bekerja sama dengan tim pengembang dan anggota tim lainnya</li>
-            <li>Memberikan komunikasi yang jelas tentang desain</li>
+            <li>Melatih kreativitas dalam mendesain</li>
+            <li>Menjadi terbuka terhadap ide-ide baru dan inovatif</li>
         </ul>
+        <p class="quote">"Kreativitas membutuhkan keberanian untuk membiarkan pergi kepastian." - Erich Fromm</p>
     </div>
 
-    <div class="topic">
-        <h2>11. Belajar dari Desainer Profesional</h2>
+    <div class="topic animated">
+        <h2>11. Mempelajari Proyek-proyek Desain Nyata</h2>
         <ul>
-            <li>Mengikuti desainer profesional dan sumber daya terkait</li>
-            <li>Mempelajari desain-desain dan pendekatan mereka</li>
+            <li>Ikuti proyek-proyek desain nyata untuk memahami dunia nyata</li>
+            <li>Menghadapi tantangan desain pada proyek sebenarnya</li>
         </ul>
+        <p class="quote">"Desain bukanlah hanya tentang bagaimana sesuatu terlihat. Desain adalah tentang bagaimana sesuatu bekerja." - Steve Jobs</p>
+    </div>
+
+    <div class="topic animated">
+        <h2>12. Membangun Portofolio</h2>
+        <ul>
+            <li>Membuat portofolio untuk menunjukkan keterampilan dan proyek</li>
+            <li>Menampilkan variasi karya dan meningkatkan pengalaman pengguna</li>
+        </ul>
+        <p class="quote">"Portofolio adalah wajah desainer. Buatlah itu cantik." - UXPin</p>
+    </div>
+
+    <div class="topic animated">
+        <h2>13. Mencari Inspirasi</h2>
+        <ul>
+            <li>Mengikuti desainer UI/UX terkemuka di media sosial</li>
+            <li>Mencari inspirasi dari desain kreatif dan inovatif</li>
+        </ul>
+        <p class="quote">"Inspirasi adalah pendorong kreativitas. Jangan pernah berhenti mencari." - Nike</p>
+    </div>
+
+    <div class="topic animated">
+        <h2>More Info😆</h2>
+        <ul>
+            <li>Mengembangkan kemampuan komunikasi dan kolaborasi dengan tim pengembangan</li>
+            <li>Menjaga diri tetap up-to-date dengan perkembangan terbaru dalam desain UI/UX</li>
+            <li>Mempertimbangkan aspek aksesibilitas dalam desain untuk pengguna dengan berbagai kemampuan</li>
+            <li>Belajar dari desain aplikasi dan situs web yang ada untuk mendapatkan wawasan lebih lanjut</li>
+        </ul>
+        <p class="quote">"Desain UI/UX adalah tentang menciptakan pengalaman yang bermakna dan memuaskan bagi pengguna." - ChatGPT (tentu saja!)</p>
     </div>
 </body>
 </html>
